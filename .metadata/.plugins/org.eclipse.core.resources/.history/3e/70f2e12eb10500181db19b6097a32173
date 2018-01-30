@@ -10,7 +10,8 @@ public class CoreCalc {
 		}
 		public int multiply(int a,int b)
 		{
-			int result=a*b;
+			System.out.println("this is my new line");
+			int result=a+b;
 			return result;
 		}
 }
